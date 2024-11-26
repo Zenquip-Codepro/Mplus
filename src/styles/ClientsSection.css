@@ -1,0 +1,38 @@
+.clients-section {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .client-logo img {
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 768px) {
+    .clients-grid {
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+  }
+  

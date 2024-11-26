@@ -1,0 +1,37 @@
+.above-footer {
+  background: #f8f9fa;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.above-footer h1 {
+  font-size: 3rem;
+  color: #212529;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .above-footer h1 {
+    font-size: 1.5rem;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+}
